@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <table name="user" count="1000000" pieces="10000">
+        <cell name="id" type="increment" />
+        <cell name="name" type="file">
+            <file>./names</file>
+        </cell>
+        <cell name="surname" type="file">
+            <file>./surnames</file>
+        </cell>
+        <cell name="dob" type="Range_Date">
+            <start>1920-01-01</start>
+            <last>2010-01-01</last>
+        </cell>
+        <cell name="sex" type="array">
+            <items>
+                <item>male</item>
+                <item>female</item>
+            </items>
+        </cell>
+        <cell name="country_id" type="Range_Int">
+            <start>1</start>
+            <limit>200</limit>
+        </cell>
+        <cell name="desc" type="file">
+            <file>./dictionary</file>
+            <words>5</words>
+        </cell>
+        <cell name="active" type="array">
+            <items>
+                <item>TRUE</item>
+                <item>FALSE</item>
+            </items>
+        </cell>
+    </table>
+</settings>
