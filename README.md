@@ -33,6 +33,7 @@ the programmer needs to make sure that the program will work with the actual amo
 <p>Writes generated data to somewhere. Usually, it's file, but you can implement any target - directory, string, etc.</p>
 
 <h2>Example</h2>
+<p>Please, put Zend Framework in library directory</p>
 <h3>Structure of data</h3>
 <ul>
 <li>id - increment - unique identifier</li>
