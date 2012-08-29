@@ -48,7 +48,6 @@ the programmer needs to make sure that the program will work with the actual amo
 <h3>Example of the settings file</h3>
 <div class="highlight">
 <pre>
-<?xml version="1.0" encoding="UTF-8"?>
 <settings>
     <table name="user" count="1000000" pieces="10000">
         <cell name="id" type="increment" />
