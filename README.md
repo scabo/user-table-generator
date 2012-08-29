@@ -1,9 +1,7 @@
 <h1>Data generator</h1>
 
 <h2>What is this?</h2>
-<p>В процессе разработки ПО часто возникает потребность в тестовых данных. Ведь разработчику необходимо удостоверится что программа будет корректно работать с реальным объемом данных до того как она передасться заказчику.  В случае, когда объем данных не играет никакой роли это не вызовет серьезных проблем, но как быть если предпологается что таблица БД может содержать 1000000 и более записей? Как 
-быстро и просто создать тестовые данные для этой таблицы? Для этого необходим гибкий и простой инструмент способный быстро сгенерировать тестовый данные в любом удобном для импорта формате.
-</p>
+<p>In the software development process is often a need to test data. Anyway, the programmer needs to make sure that the program will work with the actual amount of data before it will give to the customer. In the case when the amount of data does not matter it will not cause serious problems, but what if that is supposed database table can contain more than 1000000 and more records?  How to quickly and easily create test data for this table? This requires a flexible and simple tool capable of quickly generate test data in a useful format for import to the database.</p>
 
 <h2>Архитектура приложения</h2>
 <p>Для обеспечения максимальной гибкости приложение разбивается на 4 составные части</p>
