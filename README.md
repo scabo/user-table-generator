@@ -6,7 +6,7 @@
 <h2>What was used?</h2>
 <ol>
 <li>PHP5 as console applicaion</li>
-<li>Zend_Console_Getopt class for collection of the options</li>
+<li>Zend_Console_Getopt class for collect of the options</li>
 <li>Scabo_Heap - own library for generate random data</li>
 </ol>
 
@@ -18,17 +18,16 @@
 <li>Result writer</li>
 <li>Result target</li>
 </ol>
-<p>Для обеспечения максимальной гибксти приложение разбивается на 4 составные части</p>
 
-<h2>Источник</h2>
-<p>Предоставляет данные конфигурации для редера</p>
+<h3>Settings source</h3>
+<p>Provides configuration information for Settings Reader. It may be anything - file, string, etc.</p>
 
-<h2>Редер</h2>
-<p>Читает данные конфигурации из произвольного формата. Т.о. возможно создать редер для любого формата</p>
+<h3>Settings reader</h3>
+<p>Reads settings data from the source as some format. So you can implement reader for any format</p>
 
-<h2>Врайтер</h2>
-<p>Преобразует сгенерированный данные в произвольный формат и передает их в цель. Возможно реализовать врайтер для любого формата</p>
+<h3>Result writer</h3>
+<p>Converts generated data to the  some format and move it to the target. Also you can implement writer to any format.</p>
 
-<h2>Цель</h2>
-<p>Записывает сгенеригованные данные в произовольное место. Обычно это файл, но
-может быть что-то другое. в любом случае, всегда можно сгенерировать свою цель</p>
+<h3>Result target</h3>
+<p>Writes generated data to somewhere. Usually, it's file, but you can implement any target - directory, string, etc.</p>
+
