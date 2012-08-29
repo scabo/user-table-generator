@@ -1,4 +1,4 @@
-<h1>Data generator</h1>
+<h1>Example of th data generator for User table</h1>
 
 <h2>What is this?</h2>
 <p>In the software development process is often a need to test data. Anyway,
