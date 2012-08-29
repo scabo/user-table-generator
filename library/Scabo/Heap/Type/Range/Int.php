@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Integer range type. Uses integer range as a list of possible values
+ *
+ * @category    Scabo
+ * @package     Scabo_Heap
+ * @author      Sergey Sheviakov <scabo.dev@gmail.com>
+ * @copyright   Copyright (c) 2012, Sergey Sheviakov
+ */
 class Scabo_Heap_Type_Range_Int implements Scabo_Heap_Type_Interface
 {
     /**

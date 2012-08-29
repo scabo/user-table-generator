@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Array type. Uses predefined array as list with possible values
+ *
+ * @category    Scabo
+ * @package     Scabo_Heap
+ * @author      Sergey Sheviakov <scabo.dev@gmail.com>
+ * @copyright   Copyright (c) 2012, Sergey Sheviakov
+ */
 class Scabo_Heap_Type_Array implements Scabo_Heap_Type_Interface
 {
     /**

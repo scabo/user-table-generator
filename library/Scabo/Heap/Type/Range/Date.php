@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Date range type. Uses data range as a list of possible values
+ *
+ * @category    Scabo
+ * @package     Scabo_Heap
+ * @author      Sergey Sheviakov <scabo.dev@gmail.com>
+ * @copyright   Copyright (c) 2012, Sergey Sheviakov
+ */
 class Scabo_Heap_Type_Range_Date implements Scabo_Heap_Type_Interface
 {
     /**

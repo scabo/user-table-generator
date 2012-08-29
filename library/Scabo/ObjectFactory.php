@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @category   Scabo
- * @package    Scabo_ObjectFactory
- * @author		Sergey Sheviakov <scabo.dev@gmail.com>
- * @copyright  Copyright (c) 2012, Sergey Sheviakov
+ * @category    Scabo
+ * @package     Scabo_ObjectFactory
+ * @author      Sergey Sheviakov <scabo.dev@gmail.com>
+ * @copyright   Copyright (c) 2012, Sergey Sheviakov
  */
 final class Scabo_ObjectFactory
 {

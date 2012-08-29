@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @category    Scabo
+ * @package     Scabo_Tool
+ * @author      Sergey Sheviakov <scabo.dev@gmail.com>
+ * @copyright   Copyright (c) 2012, Sergey Sheviakov
+ */
 class Scabo_Tool_Generator
 {
     const SETTINGS_FILE     = 'settings-file';
