@@ -8,7 +8,7 @@
 <li>PHP5 as console applicaion</li>
 <li>Zend_Console_Getopt class for collection of the options</li>
 <li>Scabo_Heap - own library for generate random data</li>
-<ol>
+</ol>
 
 <h2>Architecture of the Scabo_Heap</h2>
 <p>For maximum flexibility, the application is divided into four parts:</p>
