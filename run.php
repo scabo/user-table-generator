@@ -22,4 +22,7 @@ try {
 } catch (Zend_Console_Getopt_Exception $ex) {
     echo $ex->getMessage();
     exit;
+} catch (Exeption $ex) {
+    echo $ex->getMessage();
+    exit;
 }
